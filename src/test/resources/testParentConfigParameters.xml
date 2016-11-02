@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameters Parent" parallel="false">
+    <parameter name="filePath" value="src\test\resources\testData.xls"/>
+
+    <suite-files>
+        <suite-file path="./testConfigParameters.xml"/>
+    </suite-files>
+</suite>

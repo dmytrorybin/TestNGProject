@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNg And Maven Suite" parallel="false">
+
+    <parameter name="filePath" value="src\test\resources\testData.xls"/>
+
+
+    <test name="Test To Check Parameters">
+        <classes>
+            <class name="ua.app.base.TestBase"/>
+            <class name="ua.app.tests.TestAmountInWords"/>
+        </classes>
+    </test>
+
+</suite>
